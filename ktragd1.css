@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FCFBEC;
+
+}
+header{
+    height: 60px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FCFBEC;
+
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    width: 90%;
+    margin: 10px ;
+}
+.list-menu{
+    float: right;
+    position: relative;
+}
+.item-menu{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.item-menu--have-sub-menu:hover .sub-menu-list {
+    display: block;
+}
+.sub-menu-list {
+    list-style: none;
+    position: absolute;
+    background-color: #FCFAE2;
+    display: none;
+}
+.sub-menu-item {
+    padding: 8px 12px;
+}
+main{
+    height: 1200px;
+    width: 100%;
+    overflow: auto;
+    display: flex;   
+}
+.main-contain{
+    width: 80%;
+}
+.left-contain, .right-contain{
+    width: 300px;
+}
+.contain{
+    width: 100%;
+    display: flex;
+    gap: 20px; 
+}
+.content{
+    width: 55%;
+    padding-top: 10px;
+    padding-right: 30px;
+    border-right: 2px silver solid;
+}
+.tab{
+    height: 30px;
+    background-color:#674C04;
+    color: #FCFAE2;
+    margin-top: 60px;
+}
+.list-tab{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+}
+.list{
+    width: 25%;
+    height: 650px;
+    overflow-y: scroll;
+}
+.title{
+    margin-top: 5px;
+}
+.img-item{
+    display: flex;
+    gap:  5px;
+    padding-top: 5px;
+}
+#img{
+    width: 140px;
+    height: 100px;
+}
+.contact-wrap {
+    position: fixed;
+    bottom: 10px;
+    right: 2px;
+}
+button{
+    border-radius: 12px;
+    height: 20px;
+    background-color: #625740;
+    padding: 2px;
+    color: #FCFAEF;
+}
+footer{
+    height:100%;
+    max-height: 1200px;
+    width: 100%; 
+    display: block;      
+}
+.link{
+    background-color: #c8bf95;
+    height: 70%;
+}
+.link-top{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 300px;
+}
+.design{
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+#logo-link{
+    width: 100px;
+}
+.link-bottom{
+    display: flex;
+    gap: 250px;
+    justify-content: flex-start;
+    margin-left: 400px;
+}
+.link-list{
+    padding: 30px;    
+}
+#link{
+    text-decoration: none;
+    color: rgb(73, 79, 84);
+}
+#footer{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    color: #FCFAEF;
+    display: block;
+    align-items: center;
+}
+.ft1{
+    font-size: 20px;
+    padding: 30px 150px 0px 150px; 
+}
+.ft2{ 
+    padding-top: 10px;
+}
+
+.address{
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;
+}
+
